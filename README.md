@@ -64,7 +64,7 @@ If you are using a local development environment, follow these steps:
    For example:
 
    ```bash
-   export PROJECT_ID="truba-408113"
+   export PROJECT_ID="your project Id"
    ```
 
 3. **Provision the Endpoint:**
@@ -82,10 +82,10 @@ Once you have set up your Google Cloud project and configured the environment va
 
 ```javascript
 // index.js
-const { GeminiApiClient } = require('gemini-ai');
+const { GeminiApiClient } = require('google-gemini-wrapper');
 
 const apiKey = 'YOUR_API_KEY'; // Replace with your actual API key
-const projectId = process.env.PROJECT_ID;
+const projectId = 'Your project ID;
 const modelId = 'gemini-pro-vision';
 const fileUri = 'gs://generativeai-downloads/images/scones.jpg';
 const text = 'Describe this picture.';
@@ -103,6 +103,6 @@ geminiClient.streamGenerateContent(projectId, modelId, fileUri, text)
 
 Replace `'YOUR_API_KEY'` with your actual google-gemini-wrapper API key. Make sure your Google Cloud project ID is set in the `PROJECT_ID` environment variable.
 
-For more details on the available methods and options, refer to the [google-gemini-wrapper npm package documentation](https://github.com/your-username/gemini-ai).
+For more details on the available methods and options, refer to the [google-gemini-wrapper npm package documentation](https://github.com/Chrisphine10/google-gemini-wrapper).
 
 That's it! You've successfully installed and configured the google-gemini-wrapper npm package for your Node.js project. Feel free to explore additional features and customize the package according to your needs.
