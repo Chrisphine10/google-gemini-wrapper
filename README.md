@@ -101,8 +101,8 @@ geminiClient.streamGenerateContent(projectId, modelId, fileUri, text)
     });
 ```
 
-Replace `'YOUR_API_KEY'` with your actual google-gemini-wrapper API key. Make sure your Google Cloud project ID is set in the `PROJECT_ID` environment variable.
+Replace `'YOUR_API_KEY'` with your actual Google token which you get by running ```gcloud auth print-access-token``` in your Google Console CLI. Ensure your Google Cloud project ID is set in the `PROJECT_ID` environment variable.
 
-For more details on the available methods and options, refer to the [google-gemini-wrapper npm package documentation](https://github.com/Chrisphine10/google-gemini-wrapper).
+For more details on the available methods and options, please take a look at the [google-gemini-wrapper npm package documentation](https://github.com/Chrisphine10/google-gemini-wrapper).
 
 That's it! You've successfully installed and configured the google-gemini-wrapper npm package for your Node.js project. Feel free to explore additional features and customize the package according to your needs.
