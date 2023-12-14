@@ -90,7 +90,7 @@ const modelId = 'gemini-pro-vision';
 const fileUri = 'gs://generativeai-downloads/images/scones.jpg';
 const text = 'Describe this picture.';
 
-const geminiClient = new GeminiApiClient({ apiKey });
+const geminiClient = new GeminiApiClient(apiKey);
 
 geminiClient.streamGenerateContent(projectId, modelId, fileUri, text)
     .then(response => {
