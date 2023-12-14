@@ -5,26 +5,7 @@ google-gemini-wrapper is an npm package that provides a convenient way to intera
 ## Installation
 
 To use the google-gemini-wrapper npm package, follow these steps:
-
-1. **Install Node.js:**
-   Ensure that Node.js is installed on your machine. If not, download and install it from [Node.js website](https://nodejs.org/).
-
-2. **Create a new Node.js project:**
-   Create a new directory for your project and navigate into it using your terminal.
-
-   ```bash
-   mkdir my-gemini-ai-project
-   cd my-gemini-ai-project
-   ```
-
-3. **Initialize NPM:**
-   Initialize a new Node.js project by running:
-
-   ```bash
-   npm init -y
-   ```
-
-4. **Install the google-gemini-wrapper npm package:**
+   **Install the google-gemini-wrapper npm package:**
    Install the google-gemini-wrapper npm package by running:
 
    ```bash
