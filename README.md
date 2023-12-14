@@ -54,10 +54,12 @@ If you are using a local development environment, follow these steps:
    ```bash
    gcloud beta services identity create --service=aiplatform.googleapis.com --project=$PROJECT_ID
    ```
+   ## Note
+   Please visit this link for more information. Click [here](https://cloud.google.com/vertex-ai/docs/generative-ai/start/quickstarts/quickstart-multimodal?hl=en&cloudshell=true#gemini-beginner-samples-drest)
 
 ## Usage
 
-Once you have set up your Google Cloud project and configured the environment variables, you can start using the google-gemini-wrapper npm package in your Node.js application.
+Once you have set up your Google Cloud project and configured the environment variables, you can start using the google-gemini-wrapper npm package in your application.
 
 ### Example Usage:
 
