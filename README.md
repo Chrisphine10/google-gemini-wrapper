@@ -28,7 +28,7 @@ To use the google-gemini-wrapper npm package, follow these steps:
    Install the google-gemini-wrapper npm package by running:
 
    ```bash
-   npm install gemini-ai
+   npm install google-gemini-wrapper
    ```
 
 ## Configuration
