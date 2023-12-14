@@ -32,7 +32,7 @@ If you are using a local development environment, follow these steps:
    ```bash
    gcloud init
    ```
-
+  
    Follow the on-screen instructions to configure your gcloud environment.
 
 2. **Configure Environment Variables:**
